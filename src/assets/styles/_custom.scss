@@ -292,3 +292,8 @@ ul {
   overflow: visible;
 }
 /* Text decorate end */
+
+/* position 水平置中工具*/
+.positionMiddle{
+  left:calc(50% - 13px);
+}
