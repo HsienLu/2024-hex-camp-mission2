@@ -15,7 +15,7 @@ const contentText=[{
 function HeroSection() {
   return (
     <>
-      <div className="background bg-primary-100" style={{paddingTop: "5rem"}}>
+      <div className="background bg-primary-100 mb-14" style={{paddingTop: "5rem"}}>
         <div
           className="text-center position-relative text-primary-800 widthContentFit mx-auto"
           style={{padding: "59px 71px"}}
