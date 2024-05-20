@@ -76,14 +76,14 @@ function HeroSectionCard({contentText}: HeroSectionCardProps) {
   return (
     <>
       <div className="text-center pb-1">
-        <p className="fs-6 position-relative text-primary-700 mb-2">
+        <p className="fs-6 position-relative text-primary-600 mb-2">
           {contentText.title}
           <span
             className="d-inline-block position-absolute positionMiddle bottom-0 border-bottom border-primary-400 border-2"
             style={{width: "24px"}}
           ></span>
         </p>
-        <p className="fs-6 text-primary-600">{contentText.text}</p>
+        <p className="fs-6 text-primary-700">{contentText.text}</p>
       </div>
     </>
   );
