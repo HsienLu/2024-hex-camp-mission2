@@ -58,12 +58,12 @@ function CollectionSection(){
       },[])
     return(<>
         <div className="container">
-            <div className="row gy-10">
+            <div className="row gy-lg-10 gy-8">
                 
                     {
                     collectionsText.map((v)=>{
                         return(
-                            <div className="col-6">
+                            <div className="col-lg-6 col-12">
                             <SectionCard key={v.id} collectionsText ={v}></SectionCard>
                             </div>
                             )
@@ -86,7 +86,7 @@ function SectionCard({collectionsText}:SectionCardProps ){
                 <img className="w-100" src={importImage(`${collectionsText.id}`)} alt="" />
             </div>
             <div className="text-box mb-4 ms-3">
-                <h4 className="text-primary-700 mb-2" style={{fontSize:'28px',fontWeight:'700'}}>{collectionsText.name}</h4>
+                <h4 className="text-primary-700 mb-2 collectitonCardTitle" >{collectionsText.name}</h4>
                 <p className="fs-6 text-primary-500">{collectionsText.description}</p>
             </div>
             <SectionCardTag ></SectionCardTag>

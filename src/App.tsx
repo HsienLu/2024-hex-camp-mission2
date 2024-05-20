@@ -3,6 +3,8 @@ import './App.scss'
 import Header from './component/Header.jsx'
 import HeroSection from './component/HeroSection.js'
 import CollectionSection from './component/CollectionSection.js'
+import Pagination from './component/Pagination.js'
+import Footer from './component/Footer.js'
 function App() {
   
 
@@ -11,6 +13,8 @@ function App() {
     <Header></Header>
     <HeroSection></HeroSection>
     <CollectionSection></CollectionSection>
+    <Pagination></Pagination>
+    <Footer></Footer>
     </>
   )
 }
